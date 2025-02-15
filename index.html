@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>京都旅行のしおり</title><!-- ページタイトル -->
+<meta name="viewport" content="width=device-width, initial-scale=1"><!-- パソコン以外の機器で見れる -->
+<meta name="robots" content="noindex" /><!-- 検索結果に表示させない -->
+<link rel="stylesheet" href="css/style.css"><!-- cssファイルの指定 -->
+<!-- 背景画像は、style.cssファイルで指定。imagesファイルのmaining.jpgを置き換えれば変えられる。 -->
+</head>
+
+<body>
+
+<header>
+<h1 id="logo"><a href="index.html"><img src="images/旅のしおり.png" alt="旅のしおり"></a></h1><!-- ロゴ -->
+<nav id="menubar"><!-- メニューバー -->
+<ul>
+<li><a href="#table">スケジュール</a></li><!-- クリックしたらそこまで飛ぶ -->
+<li><a href="#photo">行き先リスト</a></li>
+<li><a href="#text">お土産リスト</a></li>
+<li><a href="#money">お金の計算</a></li>
+</ul>
+</nav>
+</header>
+
+<div id="container"><!-- コンテナー（headerとfooterをのぞくブロックを囲むブロック）→cssファイルでどうにかできる。 -->
+
+<div id="contents"><!-- コンテンツ（上のcontainerの中のブロック）→同上 -->
+
+<section id="table">
+
+ <h2>スケジュール</h2>
+
+ <h3>Day1</h3>
+
+ <div class="schedule">
+    <ul>
+        <li>
+            <div class="schedule_time">9:10</div>
+            <div class="schedule_content">
+                <div class="schedule_content_title">札幌駅　待ち合わせ</div>
+                <div class="schedule_content_detail">
+                    <p>未記入</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="schedule_time">9:30発</div>
+            <div class="schedule_content">
+                <div class="schedule_content_title">札幌駅　出発</div>
+                <div class="schedule_content_detail">
+                    <p>特別快速エアポート46号</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="schedule_time">10:06着</div>
+            <div class="schedule_content">
+                <div class="schedule_content_title">新千歳空港　到着</div>
+                <div class="schedule_content_detail">
+                    <p>お昼ごはんを買う</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="schedule_time">12:15発</div>
+            <div class="schedule_content">
+                <div class="schedule_content_title">新千歳空港　離陸</div>
+                <div class="schedule_content_detail">
+                    <p>搭乗券はメールで送信済み</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="schedule_time">14:10</div>
+            <div class="schedule_content">
+                <div class="schedule_content_title">伊丹空港　着陸</div>
+                <div class="schedule_content_detail">
+                    <p>リムジンバスor電車に乗る</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="schedule_time">15:00頃</div>
+            <div class="schedule_content">
+                <div class="schedule_content_title">チェックイン</div>
+                <div class="schedule_content_detail">
+                    <ul>
+                    <a href="#photo">リーガグラン京都</a>
+                    </ul>
+                    
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="schedule_time">夜</div>
+            <div class="schedule_content">
+                <div class="schedule_content_title">夜ごはん</div>
+                <div class="schedule_content_detail">
+                    <p><a href="#nishiki">錦屋台村</a></p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<h3>Day2</h3>
+<p>嵐山周辺を観光</p>
+<div class="schedule">
+    <ul>
+        <li>
+            <div class="schedule_time">未記入</div>
+            <div class="schedule_content">
+                <div class="schedule_content_title">観光①</div>
+                <div class="schedule_content_detail">
+                    <p><a href="#tikurin">竹林の小径</a></p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="schedule_time">未記入</div>
+            <div class="schedule_content">
+                <div class="schedule_content_title">観光②</div>
+                <div class="schedule_content_detail">
+                    <p><a href="#mikami">御髪神社</a></p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="schedule_time">未記入</div>
+            <div class="schedule_content">
+                <div class="schedule_content_title">観光③</div>
+                <div class="schedule_content_detail">
+                    <p><a href="#kandaizin">菅大臣神社</a></p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="schedule_time">18:00</div>
+            <div class="schedule_content">
+                <div class="schedule_content_title">夜ごはん</div>
+                <div class="schedule_content_detail">
+                    <p><a href="#nostalgia">ノスタルジア(予約済み)</a></p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<h3>Day3</h3>
+<p>午後単独行動</p>
+<div class="schedule">
+    <ul>
+        <li>
+            <div class="schedule_time">午前</div>
+            <div class="schedule_content">
+                <div class="schedule_content_title">観光①</div>
+                <div class="schedule_content_detail">
+                    <p><a href="#kamogawa">鴨川デルタ</a></p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="schedule_time">午前</div>
+            <div class="schedule_content">
+                <div class="schedule_content_title">観光②</div>
+                <div class="schedule_content_detail">
+                    <p><a href="#kitano">北野天満宮</a></p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="schedule_time">昼</div>
+            <div class="schedule_content">
+                <div class="schedule_content_title">お昼ごはん</div>
+                <div class="schedule_content_detail">
+                    <p><a href="#katsuobushi">鰹節丼専門店　節道　BUSHIDO(予約なし)</a></p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="schedule_time">午後</div>
+            <div class="schedule_content">
+                <div class="schedule_content_title">単独行動</div>
+                <div class="schedule_content_detail">
+                    <p>松田→実家</p>
+                    <p>小崎→<a href="#library">京都府立図書館</a></p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<h3>Day4</h3>
+<div class="schedule">
+    <ul>
+        <li>
+            <div class="schedule_time">15:00頃</div>
+            <div class="schedule_content">
+                <div class="schedule_content_title">京都駅出発</div>
+                <div class="schedule_content_detail">
+                    <p>リムジンバスor電車に乗る</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="schedule_time">18:40発</div>
+            <div class="schedule_content">
+                <div class="schedule_content_title">伊丹空港</div>
+                <div class="schedule_content_detail">
+                    <p>夜ごはんを空港で食べる<br>
+                    搭乗券はメールで送信済み</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="schedule_time">20:25着</div>
+            <div class="schedule_content">
+                <div class="schedule_content_title">新千歳空港</div>
+                <div class="schedule_content_detail">
+                    <p>未記入</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</section>
+<!--/#table-->
+
+<section id="photo">
+
+    <h2>行き先リスト</h2>
+
+</section>
+
+    <div class="list">
+     <h3>リーガグラン京都</h3>
+     <p>チェックイン：3/11(火)15:00<br>
+        スタンダードツイン　朝食付き<br>
+        〒601-8003京都府京都市南区東九条西山王町1番地<br>
+        075-662-1121</p>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104604.43141385485!2d135.67739256341972!3d34.98445796546343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001092371611893%3A0xebb038b4354a0c1d!2z44Oq44O844Ks44Kw44Op44Oz5Lqs6YO9!5e0!3m2!1sja!2sjp!4v1734924795969!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     
+     <section id="nishiki">
+        <h3>錦屋台村</h3>
+        <p>最寄り駅：地下鉄烏丸線「四条駅」<br>
+            京都府京都市中京区空也町</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.0670851661935!2d135.76214807578708!3d35.00502577281307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001089ccd8ccb4f%3A0xb69ea31001ec6c9c!2z6Yym5biC5aC0!5e0!3m2!1sja!2sjp!4v1739604508556!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    
+     <section id="tikurin">
+         <h3>竹林の小径</h3>
+         <p>〒616-8393 京都府京都市右京区嵯峨野々宮町</p>
+         <h4>アクセス(電車)</h4>
+         <p><strong>京都駅</strong><br>
+            ↓JR嵯峨野線　16分<br>
+            <strong>嵯峨嵐山駅</strong><br>
+            ↓徒歩　15分<br>
+            <strong>嵐山・竹林の小径</strong><br>
+            JR京都駅３２・３３番乗り場より嵯峨野線へ乗車します。６駅で嵯峨嵐山駅へ到着しますので、下車してください。下車し、改札を出て左手へ進み階段を降りてください。降りたら右側にトロッコ嵯峨駅が見えます。トロッコ嵯峨駅を右手に見ながら道なりに進んでいきます。そのまま進んでいくと竹林の小径に着きます。</p>
+            <p>参照：<a href="https://fox-trip.com/arashiyama-bamboo-grove-access-from-kyoto-station/" target="_blank">京都駅から嵐山・竹林の小径へのアクセス｜おすすめの行き方を紹介</a></p>
+            <p>　</p>
+         <h4>アクセス(バス)</h4>
+         <p><strong>京都駅</strong><br>
+            ↓徒歩すぐ<br>
+            <strong>京都駅前/市バス停</strong><br>
+            ↓市バス28系統 50分<br>
+            <strong>野々宮/市バス停</strong><br>
+            ↓徒歩3分<br>
+            <strong>嵐山・竹林の小径</strong></p>
+        <p>参照：<a href="https://fox-trip.com/arashiyama-bamboo-grove-access-from-kyoto-station/" target="_blank">京都駅から嵐山・竹林の小径へのアクセス｜おすすめの行き方を紹介</a></p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.529717849355!2d135.6715689757877!3d35.018475772808344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001ab6c9887c505%3A0xe8275d07b5a1b63!2z5bWv5bOo6YeO56u55p6X44Gu5bCP5b6E!5e0!3m2!1sja!2sjp!4v1739606554187!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+     </section>
+
+     <section id="mikami">
+            <h3>御髪神社</h3>
+            <p>〒616-8394 京都府京都市右京区嵯峨小倉山田淵山町１０</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3267.5351543511224!2d135.66950727578765!3d35.01833972280856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x6001ab6c9887c505%3A0xe8275d07b5a1b63!2z5bWv5bOo6YeO56u55p6X44Gu5bCP5b6E!3m2!1d35.0184758!2d135.6741439!4m5!1s0x6001aa04f006c7e3%3A0xea57285b8bda3c12!2z5b6h6auq56We56S-!3m2!1d35.0176511!2d135.6697398!5e0!3m2!1sja!2sjp!4v1739607362101!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p>御神神社から市電などで菅大臣神社に行くことも可能。その都度調べる。</p>
+     </section>
+
+     <section id="kandaizin">
+        <h3>菅大臣神社</h3>
+        <p>〒600-8444 京都府京都市下京区菅大臣町<br>
+            地下鉄「四条烏丸」駅下車、徒歩約5分<br>
+            市バス「西洞院仏光寺」下車、徒歩約2分</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6536.47810520862!2d135.75347137578694!3d35.00072057281457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001089ea42f6eb7%3A0xa13f586d17af036a!2z6I-F5aSn6Iej56We56S-!5e0!3m2!1sja!2sjp!4v1739607971836!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </section>
+
+     <section id="nostalgia">
+        <h3>ノスタルジア</h3>
+        <p>〒604-8006 京都府京都市中京区下丸屋町 グリントランド B1F<br>
+            京都市営地下鉄東西線/京都市役所前駅 徒歩2分（150m）<br>
+            京阪本線/三条（京都）駅 徒歩5分（390m）<br>
+            京都市営地下鉄東西線/三条京阪駅 徒歩7分（530m）</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6535.737231674247!2d135.7662266757873!3d35.009993872811286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108837d54d8c9%3A0xe68f7723f3905646!2z44OO44K544K_44Or44K444Ki!5e0!3m2!1sja!2sjp!4v1739608512683!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </section>
+   
+     <section id="kamogawa">
+        <h3>鴨川デルタ</h3>
+        <p><strong>京都駅</strong><br>
+            ↓奈良線<br>
+            <strong>東福寺　下車</strong><br>
+            ↓隣接した京阪に乗り換え<br>
+            <strong>三条・出町方面へ<br>
+                    京阪出町柳駅　下車</strong><br>
+            ↓3番出口から外へ<br>
+            <strong>鴨川デルタ</strong></p>
+            <p>参照：<a href="https://hidesanpo.com/kamogawa-delta-guide#index_id9" target="_blank">【京都】水遊びもできる！鴨川デルタの魅力完全ガイド！アクセスや注意点も</a></p>
+
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.074804612382!2d135.76918917578817!3d35.02985847280447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001091d4d89f861%3A0xe99f6a9634d1a2e9!2z6bSo5bed44OH44Or44K_!5e0!3m2!1sja!2sjp!4v1735004883382!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </section>
+
+     <section id="kitano">
+        <h3>北野天満宮</h3>
+        <p>〒602-8386 京都府京都市上京区馬喰町<br>
+           市バスで鴨川デルタから直接向かうことも可能。その都度調べる。</p>
+           <img src="images/kitano.jpeg" alt="北野天満宮へ電車でアクセスする方法">
+           <p>参照：<a href="https://kitanotenmangu.or.jp/access/" target="_blank">北野天満宮　参拝時間・アクセス</a></p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4150.243058852918!2d135.73194142593715!3d35.031362792467306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600107ed7bf0e06d%3A0x5b26fec16c2eee1a!2z5YyX6YeO5aSp5rqA5a6u!5e0!3m2!1sja!2sjp!4v1739615927699!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </section>
+
+     <section id="katsuobushi">
+        <h3>鰹節丼専門店　節道　BUSHIDO</h3>
+        <p>〒604-8118 京都府京都市中京区道祐町１３５−１ 三条食彩ろぉじ内<br>
+           営業時間　7:00～14:00<br>
+           地下鉄烏丸線「四条駅」「烏丸御池駅」より徒歩5分、イノダコーヒー本店の向かい</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.9363397006427!2d135.76103317578728!3d35.00829867281192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001097ce7f43df5%3A0x861233968a984fc5!2z56-A6YGT!5e0!3m2!1sja!2sjp!4v1739616267886!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </section>
+
+     <section id="library">
+        <h3>京都府立図書館</h3>
+        <p>〒606-8343 京都府京都市左京区岡崎成勝寺町<br>
+            地下鉄　東西線　「東山」駅下車　徒歩約10分<br>
+            「岡崎公園 美術館・平安神宮前」下車すぐ（５号系統、46号系統、86号系統）<br>
+            <p>参照：<a href="https://www.library.pref.kyoto.jp/guide/access" target="_blank">京都府立図書館　交通案内</a></p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.743775426743!2d135.77940397578746!3d35.01311857281031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108e675e62381%3A0x2f14493d715ecf9b!2z5Lqs6YO95bqc56uL5Zuz5pu46aSo!5e0!3m2!1sja!2sjp!4v1739616883337!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </section>
+
+<section id="text">
+
+ <h2>お土産リスト</h2>
+<p><input type="checkbox" name="Souvenirs" value="">千枚漬け(小崎)</p>
+
+</section>
+<!--/#text-->
+
+<section id="money">
+    <h2>お金の計算</h2>
+    <iframe src="https://walica.jp/group/01JFRDM0H1JQZWKD0D4H8D5H5T"width="100px" height="600px"></iframe>
+</section>
+<!--/#money-->
+    
+</div>
+<!--/#contents-->
+
+</div>
+<!--/#container-->
+
+<!--ページの上部へ戻るボタンとスクリプト-->
+<p class="scroll"><a href="#">↑</a></p>
+<script src="js/scroll.js"></script>
+
+</body>
+</html>
